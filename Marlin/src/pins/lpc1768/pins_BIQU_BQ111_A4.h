@@ -85,7 +85,7 @@
 // Unused
 //
 //#define PIN_P2_10                        P2_10  // IBOOT-1
-//#define PIN_P0_27                        P0_27  // Onboard SD Detect
+#define PIN_P0_27                        P0_27  // Onboard SD Detect
 
 /**
  * LCD / Controller

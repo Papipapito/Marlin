@@ -562,20 +562,10 @@
 
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
-  // Ultimaker
-  #define DEFAULT_Kp 40.5
+
+  #define DEFAULT_Kp 30.50
   #define DEFAULT_Ki 3.34
   #define DEFAULT_Kd 69.68
-
-  // MakerGear
-  //#define DEFAULT_Kp 7.0
-  //#define DEFAULT_Ki 0.1
-  //#define DEFAULT_Kd 12
-
-  // Mendel Parts V9 on 12V
-  //#define DEFAULT_Kp 63.0
-  //#define DEFAULT_Ki 2.25
-  //#define DEFAULT_Kd 440
 
 #endif // PIDTEMP
 
@@ -1739,7 +1729,7 @@
  *
  * :[0:'Classic', 1:'Prusa']
  */
-#define LCD_INFO_SCREEN_STYLE 0
+//#define LCD_INFO_SCREEN_STYLE 0
 
 /**
  * SD CARD
