@@ -499,9 +499,9 @@
     #define DEFAULT_Ki_LIST {   1.08,   1.08 }
     #define DEFAULT_Kd_LIST { 114.00, 114.00 }
   #else
-    #define DEFAULT_Kp  22.20
-    #define DEFAULT_Ki   1.08
-    #define DEFAULT_Kd 114.00
+#define DEFAULT_Kp 24.01
+#define DEFAULT_Ki 1.53
+#define DEFAULT_Kd 94.18
   #endif
 #endif // PIDTEMP
 
@@ -540,9 +540,9 @@
 
   // 120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   // from FOPDT model - kp=.39 Tp=405 Tdead=66, Tc set to 79.2, aggressive factor of .15 (vs .1, 1, 10)
-#define DEFAULT_bedKp 212.25
-#define DEFAULT_bedKi 35.70
-#define DEFAULT_bedKd 841.35
+#define DEFAULT_bedKp 253.46
+#define DEFAULT_bedKi 42.38
+#define DEFAULT_bedKd 1010.64
 
 
 
@@ -784,7 +784,7 @@
 
 /**
  * Default Jerk limits (mm/s)
- * Override with M205 X Y Z E
+ *    Override with M205 X Y Z E
  *
  * "Jerk" specifies the minimum speed change that requires acceleration.
  * When changing speed and direction, if the difference is less than the
@@ -1129,10 +1129,10 @@
 
 // Travel limits (mm) after homing, corresponding to endstop positions.
 #define X_MIN_POS 0
-#define Y_MIN_POS 0
+#define Y_MIN_POS 20
 #define Z_MIN_POS 0
 #define X_MAX_POS X_BED_SIZE
-#define Y_MAX_POS Y_BED_SIZE
+#define Y_MAX_POS Y_BED_SIZE + 20
 #define Z_MAX_POS 300
 
 /**
