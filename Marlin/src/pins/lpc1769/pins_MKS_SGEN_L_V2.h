@@ -21,7 +21,6 @@
  */
 #pragma once
 
-#define FIL_RUNOUT_PIN P1_24
 
 /**
  * MKS SGen pin assignments
